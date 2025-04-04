@@ -8,6 +8,7 @@ from typing import Dict, Any
 from app.database import get_db
 from app.models.quiz import Quiz
 from app.schemas.quiz import QuizResponse, QuizVerifyResponse
+from app.config import QUESTIONS_FILE_PATH
 
 router = APIRouter(
     prefix="/quiz",
@@ -17,7 +18,7 @@ router = APIRouter(
 
 # Load questions from question.json
 try:
-    with open("questions.json", "r") as file:
+    with open(QUESTIONS_FILE_PATH, "r") as file:
         questions = json.load(file)
 except Exception as e:
     questions = []

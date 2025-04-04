@@ -1,10 +1,12 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
+from web3 import Web3
 
 from app.database import engine, Base, get_db
 from app.routes.quiz import router as quiz_router
 from app.models.quiz import Quiz
+from app.config import web3, contract
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -34,3 +36,13 @@ def read_root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# Define the event to monitor (replace 'YourEventName' with the actual event name)
+event_filter = contract.events.YourEventName.createFilter(fromBlock='latest')
+
+print("Listening for events...")
+
+# Monitor the event
+while True:
+    for event in event_filter.get_new_entries():
+        print("Event log:", event)
