@@ -8,6 +8,5 @@ class QuizResponse(BaseModel):
 
 class QuizVerifyResponse(BaseModel):
     quiz_id: str
-    user_id: str
     questions: list
     correct_answers: int

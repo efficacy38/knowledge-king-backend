@@ -1,8 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
 
-from app.database import engine, Base
+from app.database import engine, Base, get_db
 from app.routes.quiz import router as quiz_router
+from app.models.quiz import Quiz
 
 # Create tables
 Base.metadata.create_all(bind=engine)
