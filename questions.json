@@ -1,0 +1,487 @@
+[
+  {
+    "question": "Valuing life should be the top priority of driving ethics. Drivers should respect pedestrians and yield to the elderly, children, and the disabled at all times.",
+    "answer": true,
+    "id": 1
+  },
+  {
+    "question": "Abiding by the traffic regulations has nothing to do with driving ethics.",
+    "answer": false,
+    "id": 2
+  },
+  {
+    "question": "A gasoline fire should be put out by a fire extinguisher, sand, a wet blanket, or wet clothing.",
+    "answer": true,
+    "id": 3
+  },
+  {
+    "question": "Yielding and tolerance are indicators of good driving ethics.",
+    "answer": true,
+    "id": 4
+  },
+  {
+    "question": "You should yield to oncoming vehicles on a narrow road.",
+    "answer": true,
+    "id": 5
+  },
+  {
+    "question": "Although drivers have the right of way when they have a green light, they are still required to watch out for jaywalkers and vehicles that run through red lights.",
+    "answer": true,
+    "id": 6
+  },
+  {
+    "question": "I see a car accident has taken place up ahead; someone was hurt, but nobody is helping. I can see and hear the injured person screaming, but because I am in a hurry, I can ignore him.",
+    "answer": false,
+    "id": 7
+  },
+  {
+    "question": "Inspecting our cars to make sure they are in good condition before we drive and yielding to pedestrians and other vehicles when on the road displays good driving ethics.",
+    "answer": true,
+    "id": 8
+  },
+  {
+    "question": "If a driver overtakes me to avoid getting dusty, I should pass them for the same reason.",
+    "answer": false,
+    "id": 9
+  },
+  {
+    "question": "The road is flooded with dirty water after heavy rains. There are lots of pedestrians but I hate to block traffic so it's best that I speed up and pass them quickly.",
+    "answer": false,
+    "id": 10
+  },
+  {
+    "question": "You have to consider the safety and comfort of your passengers, and pay attention to the safety of other vehicles and pedestrians on the road whenever you start your car, shift gears, turn, or brake.",
+    "answer": true,
+    "id": 11
+  },
+  {
+    "question": "It is very inconsiderate behavior to honk the horn at random.",
+    "answer": true,
+    "id": 12
+  },
+  {
+    "question": "Although vision, hearing, and judgment all become impaired when drinking alcohol, alcohol makes people feel good. Therefore, it's okay for people to drive after drinking.",
+    "answer": false,
+    "id": 13
+  },
+  {
+    "question": "My car breaks down in the fast lane, blocking traffic, and may cause safety problems. As I am running late, I think it's OK if I can fix it up quickly and drive away.",
+    "answer": false,
+    "id": 14
+  },
+  {
+    "question": "I've been driving for many years and I'm a really good driver. So, it won't affect the safety at all if I chat on the phone while driving.",
+    "answer": false,
+    "id": 15
+  },
+  {
+    "question": "If I'm carrying passengers, I have to be extremely cautious because I am responsible for the safety of everyone on board.",
+    "answer": true,
+    "id": 16
+  },
+  {
+    "question": "As a veteran driver, I know just how dangerous speeding is. Even if passengers ask me to speed up, I will never agree but rather tell them how dangerous that is instead.",
+    "answer": true,
+    "id": 17
+  },
+  {
+    "question": "If a person doesn't use common courtesy when driving, it could cause a tragedy, not only for him/herself but for everybody.",
+    "answer": true,
+    "id": 18
+  },
+  {
+    "question": "A taxi driver can request an additional fare from elderly, disabled passengers, or children.",
+    "answer": false,
+    "id": 19
+  },
+  {
+    "question": "You should switch your headlights to low-beam when approaching oncoming vehicles at night.",
+    "answer": true,
+    "id": 20
+  },
+  {
+    "question": "If the vehicle behind you taps their horn or uses their turn signal to indicate that they want to pass, you should slow down and pull over to the roadside, if there is no barrier blocking your path, to let them pass more safely.",
+    "answer": true,
+    "id": 21
+  },
+  {
+    "question": "If passengers leave personal belongings in your car, you are required to immediately return them to the owner, or take them to the nearest police station.",
+    "answer": true,
+    "id": 22
+  },
+  {
+    "question": "If elderly or disabled people or children are crossing the pedestrian crosswalk slowly, you should tap your horn to warn them to hurry up.",
+    "answer": false,
+    "id": 23
+  },
+  {
+    "question": "If you have passengers who are unfamiliar with the city, it's okay to take the longest route in order to earn more money.",
+    "answer": false,
+    "id": 24
+  },
+  {
+    "question": "If a passenger is sick with something contagious or is carrying smelly food, you can politely refuse them service.",
+    "answer": true,
+    "id": 25
+  },
+  {
+    "question": "If you ever find anybody injured and lying on the ground, you should immediately dial 110 or 119 to notify the police or emergency medical services.",
+    "answer": true,
+    "id": 26
+  },
+  {
+    "question": "If your car hits a pedestrian by accident, but the pedestrian is not injured, you can speed away to avoid trouble.",
+    "answer": false,
+    "id": 27
+  },
+  {
+    "question": "If you see a blind person or a person using a white-colored cane to assist them with walking on the street or crossing the street, you should help them or yield to them.",
+    "answer": true,
+    "id": 28
+  },
+  {
+    "question": "You should be in good physical and mental condition when driving, so that you can concentrate on your driving.",
+    "answer": true,
+    "id": 29
+  },
+  {
+    "question": "Avoiding causing traffic accidents, and not violating traffic laws, are the main requirements for safe driving.",
+    "answer": true,
+    "id": 30
+  },
+  {
+    "question": "When driving, you should never ever be in such a rush that you speed and lose your concentration, not even for one second, and always focus on your driving.",
+    "answer": true,
+    "id": 31
+  },
+  {
+    "question": "Driving is a tiresome work that requires good coordination of the body and mind, so drivers may get exhausted easily. Therefore, keeping a healthy life can significantly improve your driving safety.",
+    "answer": true,
+    "id": 32
+  },
+  {
+    "question": "Poor vehicle maintenance causes a lot of accidents. Therefore, you should keep all mechanical parts in good condition and follow the owner's manual regarding vehicle maintenance and safety inspection.",
+    "answer": true,
+    "id": 33
+  },
+  {
+    "question": "If your car starts having a mechanical problem when you are driving and the problem may cause safety concern, you should continue driving anyway.",
+    "answer": false,
+    "id": 34
+  },
+  {
+    "question": "You should conduct a vehicle safety check prior to each use in addition to having regular maintenance done.",
+    "answer": true,
+    "id": 35
+  },
+  {
+    "question": "Traffic rules are designed to ensure orderly safe traffic flow. Therefore, you must not only familiarize yourself with but also abide by them.",
+    "answer": true,
+    "id": 36
+  },
+  {
+    "question": "You must check your car before you drive to improve road safety.",
+    "answer": true,
+    "id": 37
+  },
+  {
+    "question": "For drivers, following traffic rules is not as essential as having good driving skills.",
+    "answer": false,
+    "id": 38
+  },
+  {
+    "question": "It is the responsibility of the vehicle owner and the driver to tightly secure cargo loaded on the vehicle; this can reduce the probability of accidents.",
+    "answer": true,
+    "id": 39
+  },
+  {
+    "question": "The main cause of traffic accidents is drivers who continue to drive despite the fact that they are exhausted.",
+    "answer": true,
+    "id": 40
+  },
+  {
+    "question": "Physically or mentally challenged people are allowed to drive without any restrictions.",
+    "answer": false,
+    "id": 41
+  },
+  {
+    "question": "Drivers must focus on their driving at all times.",
+    "answer": true,
+    "id": 42
+  },
+  {
+    "question": "Fatigue driving won't impair safety as long as you drive more slowly.",
+    "answer": false,
+    "id": 43
+  },
+  {
+    "question": "Reaction distance plus braking distance equals the distance required to stop a moving vehicle.",
+    "answer": true,
+    "id": 44
+  },
+  {
+    "question": "If you drive, do not drink. And if you drink, do not drive.",
+    "answer": true,
+    "id": 45
+  },
+  {
+    "question": "If a driver causes an accident that results in death or injury, they are liable for criminal consequences including imprisonment, civil consequences such as being held responsible for loss or damages (indemnity), and administrative consequences like having their driver's license suspended.",
+    "answer": true,
+    "id": 46
+  },
+  {
+    "question": "Drivers who cause death or injury due to negligence are liable for criminal consequences, civil consequences, and administrative consequences. It is not the case that there is no indemnity if you are imprisoned, or no imprisonment if there is indemnity.",
+    "answer": true,
+    "id": 47
+  },
+  {
+    "question": "Drivers who cause death or injury due to negligence are by law subject to criminal liability and civil indemnity.",
+    "answer": true,
+    "id": 48
+  },
+  {
+    "question": "Intentional death or injury by a driver is considered willful murder or assault by law.",
+    "answer": true,
+    "id": 49
+  },
+  {
+    "question": "Bad driving habits such as tailgating, changing lanes randomly, changing lanes suddenly to speed up turning, speeding or driving in a frenzy are the most common bad driving habits.",
+    "answer": true,
+    "id": 50
+  },
+  {
+    "question": "Failure to use a turn signal before turning, and not paying attention to the vehicles following behind when making turns, are the most common causes of accidents.",
+    "answer": true,
+    "id": 51
+  },
+  {
+    "question": "Before entering lanes or changing lanes, drivers should flash their turn signal to signal their direction, check for vehicles in their rear view mirror and look over their left and right shoulders to check the movement of vehicles in the adjacent lanes in order to eliminate the blind spots not shown in the rear view mirror.",
+    "answer": true,
+    "id": 52
+  },
+  {
+    "question": "When driving in high speed, drivers are likely to neglect objects on both sides and up ahead. Therefore, drivers should always observe the road carefully far up ahead and avoid speeding.",
+    "answer": true,
+    "id": 53
+  },
+  {
+    "question": "Long tunnel is an extremely enclosed underground space. If a fire occurs, temperature in the tunnel may rise as high as 1,000℃ and cause a disaster if drivers do not follow regulations or evacuation procedures in the tunnel.",
+    "answer": true,
+    "id": 54
+  },
+  {
+    "question": "Vehicles carrying dangerous items or loads that are extra long, extra wide, extra tall, or extra heavy are prohibited from traveling in long tunnels.",
+    "answer": true,
+    "id": 55
+  },
+  {
+    "question": "Drivers may not throw any object out of their vehicle when they are driving in a long tunnel.",
+    "answer": true,
+    "id": 56
+  },
+  {
+    "question": "Drivers may not randomly change lanes when they are driving in long tunnels.",
+    "answer": true,
+    "id": 57
+  },
+  {
+    "question": "Drivers may not stop their vehicle to add fuel when they are in a long tunnel.",
+    "answer": true,
+    "id": 58
+  },
+  {
+    "question": "Drivers are required to turn on their headlights in long tunnels because these tunnels are dark.",
+    "answer": true,
+    "id": 59
+  },
+  {
+    "question": "Drivers are required to pull their vehicles into an emergency parking bay provided along the roadside and turn on their emergency warning lights if any accident occurs involving their vehicle in a tunnel.",
+    "answer": true,
+    "id": 60
+  },
+  {
+    "question": "If a vehicle stalled in a long tunnel with its engine running consequently causing the air quality to deteriorate or become toxic, the driver is required to turn off the engine to reduce the emission of toxic gas.",
+    "answer": true,
+    "id": 61
+  },
+  {
+    "question": "If a fire occurs when driving through a long tunnel, drivers should stay calm and pull their car over to the side of the tunnel to allow fire engines and ambulances to enter into the tunnel.",
+    "answer": true,
+    "id": 62
+  },
+  {
+    "question": "If a fire occurs in a long tunnel, drivers are required to stop the car and turn off the engine. Everyone should take their valuables and evacuate the vehicle, leaving the keys in the ignition and the doors unlocked, so fire fighters can remove cars.",
+    "answer": true,
+    "id": 63
+  },
+  {
+    "question": "If a fire occurs in a long tunnel, drivers and their passengers are required to keep their body low to the ground and evacuate opposite the direction of the fire in order to minimize the damage caused by smoke inhalation.",
+    "answer": true,
+    "id": 64
+  },
+  {
+    "question": "Those afflicted with serious mental deficiencies, blindness, or epilepsy are prohibited from having a driver's license.",
+    "answer": true,
+    "id": 65
+  },
+  {
+    "question": "Those who are addicted to alcohol, narcotics, or amphetamines are prohibited from possessing a driver's license.",
+    "answer": true,
+    "id": 66
+  },
+  {
+    "question": "A mini-van loaded with goods may not exceed a height 2.85 meters from the ground.",
+    "answer": true,
+    "id": 67
+  },
+  {
+    "question": "A mini-van loaded with goods may not exceed a height 3 meters from the ground.",
+    "answer": false,
+    "id": 68
+  },
+  {
+    "question": "If goods being transported are likely to leak, blow away, or generate an odor, the vehicle driver is required to seal and/or secure these goods tightly.",
+    "answer": true,
+    "id": 69
+  },
+  {
+    "question": "No one is allowed to ride outside a vehicle.",
+    "answer": true,
+    "id": 70
+  },
+  {
+    "question": "Applicants must get at least 70 points on the road test in order to pass the driving test.",
+    "answer": true,
+    "id": 71
+  },
+  {
+    "question": "The body of an automobile is not allowed to have damage, loose parts, or doors that do not close properly.",
+    "answer": true,
+    "id": 72
+  },
+  {
+    "question": "Unless a prior approval from the Motor Vehicle Registration Department is granted, you are not allowed to attach a trailer to your vehicle.",
+    "answer": true,
+    "id": 73
+  },
+  {
+    "question": "Enforcing traffic rules to ensure the orderly flow of traffic is essential to traffic safety.",
+    "answer": true,
+    "id": 74
+  },
+  {
+    "question": "Traffic signs are the lines or words painted on the surface of the road that warn, control, and direct drivers for the purpose of regulating traffic flow.",
+    "answer": false,
+    "id": 75
+  },
+  {
+    "question": "Motor vehicle owners or drivers can pay fines directly to the designated agency within 15 days for citations issued by the road traffic administration if they do not intend to contest.",
+    "answer": true,
+    "id": 76
+  },
+  {
+    "question": "Drivers with large truck licenses are also permitted to drive tractortrailer and cars.",
+    "answer": false,
+    "id": 77
+  },
+  {
+    "question": "If a driver's license is permanently suspended, the driver is prohibited from taking driver's test with the exception of those meeting special criteria.",
+    "answer": true,
+    "id": 78
+  },
+  {
+    "question": "Drivers are required to pay attention to the movement of the vehicles in front of them in the same lane, and to keep a safe distance that allows drivers to brake and stop the vehicles.",
+    "answer": true,
+    "id": 79
+  },
+  {
+    "question": "A person who possesses a current and legal driver's license may apply for an international driver's license valid for the same time period and the same type of vehicle(s) as stated on their driver's license while they are abroad.",
+    "answer": true,
+    "id": 80
+  },
+  {
+    "question": "Special vehicles are only allowed to carry passengers or goods in accordance with the intended function or purpose of the vehicle.",
+    "answer": true,
+    "id": 81
+  },
+  {
+    "question": "If a driver's license is revoked or cancelled, the driver is required to return it to the Motor Vehicle Registration Department immediately.",
+    "answer": true,
+    "id": 82
+  },
+  {
+    "question": "Upon the death of a driver, the person responsible for handling the affairs of the deceased driver is required to return that driver's license to their local Motor Vehicle Registration Department.",
+    "answer": true,
+    "id": 83
+  },
+  {
+    "question": "Goods loaded in or on vehicles have to be securely loaded and fastened down tightly.",
+    "answer": true,
+    "id": 84
+  },
+  {
+    "question": "If a driver's license is acquired by unlawful or inappropriate means, the Motor Vehicle Registration Department will cancel their license and request the driver immediately turn it into the Department.",
+    "answer": true,
+    "id": 85
+  },
+  {
+    "question": "A visitor who possess a valid international driver's license and has stayed for more than 30 days should obtain a special permit from the Motor Vehicle Registration Department prior to driving in the R.O.C.",
+    "answer": true,
+    "id": 86
+  },
+  {
+    "question": "In addition to a fine, if a car owner who knowingly fails to stop the driver who has an alcohol level exceeding the maximum tolerate standard or under the influence of drugs, or hallucinogens, hallucinogenic drugs, etc., his/her vehicle license plate shall be suspended for 2 years.",
+    "answer": true,
+    "id": 87
+  },
+  {
+    "question": "If a driver exceeds the maximum allowed driving time of 8 hours under the explicit orders of the vehicle owner, the vehicle registration will be suspended for 3 months.",
+    "answer": true,
+    "id": 88
+  },
+  {
+    "question": "Checking the mechanical parts before driving is not necessary because it will waste time.",
+    "answer": false,
+    "id": 89
+  },
+  {
+    "question": "Volume of the car horn should not exceed the standards regulated by law.",
+    "answer": true,
+    "id": 90
+  },
+  {
+    "question": "Drivers are only allowed to tap their horn once in each driving incidence.",
+    "answer": true,
+    "id": 91
+  },
+  {
+    "question": "Driver's licenses are issued by the Motor Vehicle Registration Department after drivers submit their application and pass both the written and the road test.",
+    "answer": true,
+    "id": 92
+  },
+  {
+    "question": "Drivers, who disobey instructions from the police or traffic enforcement officers and thus cause injury or death, will be penalized, their driver's license will be either suspended or cancelled, and they will be permanently prohibited from driving in the R.O.C. (except for those who meet certain criteria and those whose license suspension has expired in accordance with requirements stipulated by the government).",
+    "answer": true,
+    "id": 93
+  },
+  {
+    "question": "If a driver's license is lost damaged or stolen, the driver must apply to the Motor Vehicle Registration Department to get their driver's license replaced or reissued.",
+    "answer": true,
+    "id": 94
+  },
+  {
+    "question": "Vehicles loaded with dangerous cargo must park in a cool and open area and at a safe distance from other vehicles. All cargo must have labels indicating dangerous goods.",
+    "answer": true,
+    "id": 95
+  },
+  {
+    "question": "Buses must not obstruct traffic while loading or unloading passengers.",
+    "answer": true,
+    "id": 96
+  },
+  {
+    "question": "On narrow sloping roads, vehicles traveling downhill must yield to vehicles traveling uphill.",
+    "answer": true,
+    "id": 97
+  }
+]
