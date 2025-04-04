@@ -1,21 +1,33 @@
 from web3 import Web3
 from dotenv import load_dotenv
 import os
+import json
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Configuration settings for the application
-QUESTIONS_FILE_PATH = os.getenv("QUESTIONS_FILE_PATH", "questions.json")
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./quizzes.db")
+# Load unified configuration from JSON file
+with open("celo_config.json", "r") as f:
+    config = json.load(f)
 
-# Connect to the Ethereum node (replace with your provider URL)
-provider_url = os.getenv("PROVIDER_URL", "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID")
-web3 = Web3(Web3.HTTPProvider(provider_url))
+DATABASE_URL = config.get("database_url", "sqlite:///./quizzes.db")
+QUESTIONS_FILE_PATH = config.get("questions_file_path", "questions.json")
+
+# Select network configuration
+network_key = os.getenv("CELO_NETWORK", "celo_alfaj")
+network_config = config["networks"].get(network_key, {})
+CELO_RPC_URL = network_config.get("rpc_url", "")
+
+if not CELO_RPC_URL:
+    print(f"Invalid configuration for network: {network_key}")
+    exit()
+
+# Update Web3 provider to use the selected RPC URL
+web3 = Web3(Web3.HTTPProvider(CELO_RPC_URL))
 
 # Check if the connection is successful
 if not web3.isConnected():
-    print("Failed to connect to the Ethereum network")
+    print("Failed to connect to the Celo network")
     exit()
 
 # Replace with your contract's address and ABI

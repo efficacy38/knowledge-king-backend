@@ -1,0 +1,12 @@
+{
+  "networks": {
+    "celo": {
+      "rpc_url": "https://forno.celo.org"
+    },
+    "celo_alfaj": {
+      "rpc_url": "https://alfajores-forno.celo-testnet.org"
+    }
+  },
+  "database_url": "sqlite:///./quizzes.db",
+  "questions_file_path": "questions.json"
+}

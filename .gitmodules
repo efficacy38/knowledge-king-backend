@@ -1,0 +1,3 @@
+[submodule "knowledge-king-contract"]
+	path = knowledge-king-contract
+	url = git@github.com:ExplorerRay/knowledge-king-contract.git
