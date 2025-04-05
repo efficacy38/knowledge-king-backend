@@ -25,16 +25,34 @@ if not CELO_RPC_URL:
 # Update Web3 provider to use the selected RPC URL
 web3 = Web3(Web3.HTTPProvider(CELO_RPC_URL))
 
-# Check if the connection is successful
-if not web3.isConnected():
+# Check if the connection is successful - using is_connected() instead of isConnected()
+if not web3.is_connected():
     print("Failed to connect to the Celo network")
     exit()
 
-# Replace with your contract's address and ABI
-contract_address = os.getenv("CONTRACT_ADDRESS", "0xYourContractAddress")
-contract_abi = [
-    # Add your contract's ABI here
-]
+# Load the ABI for Knowking.sol
+try:
+    with open("./Knowking.sol/KnowledgeKingGame.json", "r") as f:
+        knowking_abi = json.load(f)["abi"]
+except FileNotFoundError:
+    print("KnowledgeKingGame.json not found at expected location")
+    knowking_abi = []
 
-# Create a contract instance
-contract = web3.eth.contract(address=contract_address, abi=contract_abi)
+# Load the ABI for Token.sol
+try:
+    with open("./Token.sol/KnowledgeKingToken.json", "r") as f:
+        token_abi = json.load(f)["abi"]
+except FileNotFoundError:
+    print("KnowledgeKingToken.json not found at expected location")
+    token_abi = []
+
+# Replace with your contract's address (must be a valid address, not just a placeholder)
+
+# Replace with your contract's address (must be a valid address, not just a placeholder)
+gaming_contract = web3.eth.contract(
+    address=os.getenv('KNOWLEDGE_KING_GAME_CONTRACT_ADDR'),  # Replace with your contract's address
+    abi=knowking_abi
+)
+token_contract = web3.eth.contract(
+    address=os.getenv('KNOWLEDGE_KING_TOKEN_CONTRACT_ADDR'),  # Replace with your token contract's address
+    abi=token_abi )
