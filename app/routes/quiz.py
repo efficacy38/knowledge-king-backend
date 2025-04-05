@@ -33,9 +33,9 @@ def create_quiz(user_id: str, db: Session = Depends(get_db)):
     existing_quiz = db.query(Quiz).filter(Quiz.user_id == user_id).order_by(Quiz.created_at.desc()).first()
 
     questions_without_answer = []
-    if existing_quiz and existing_quiz.is_completed == "false":
+    if existing_quiz and existing_quiz.is_completed is False:
     # remove answer attr from existing_quiz's questions
-        if existing_quiz.questions:
+        if existing_quiz.questions is not None:
             for question in existing_quiz.questions:
                 question_without_answer = question.copy()
                 question_without_answer.pop("answer", None)
