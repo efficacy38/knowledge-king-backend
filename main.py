@@ -6,7 +6,7 @@ from web3 import Web3
 from app.database import engine, Base, get_db
 from app.routes.quiz import router as quiz_router
 from app.models.quiz import Quiz
-from app.config import web3, gaming_contract, token_contract
+from app.config import gaming_contract, token_contract
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -36,16 +36,3 @@ def read_root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
-# Define the event to monitor - fixed by adding from_block parameter
-# event_filter = gaming_contract.events.startGame.create_filter
-# print(type(gaming_contract.events.startGame.create_filter))
-event_filter = gaming_contract.events.startGame.create_filter(from_block='latest')
-print("Listening for events...")
-
-# print all startGame events from the last 10 blocks
-def print_events():
-    while True:
-        for event in event_filter.get_new_entries():
-            print(f"New event: {event}")
-        time.sleep(2)  # Adjust the sleep time as needed

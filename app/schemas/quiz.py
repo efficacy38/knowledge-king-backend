@@ -10,3 +10,7 @@ class QuizVerifyResponse(BaseModel):
     quiz_id: str
     questions: list
     correct_answers: int
+
+class TransactionData(BaseModel):
+    tx_hash: str
+    user_addr: str

@@ -23,10 +23,10 @@ if not CELO_RPC_URL:
     exit()
 
 # Update Web3 provider to use the selected RPC URL
-web3 = Web3(Web3.HTTPProvider(CELO_RPC_URL))
+wb3 = Web3(Web3.HTTPProvider(CELO_RPC_URL))
 
 # Check if the connection is successful - using is_connected() instead of isConnected()
-if not web3.is_connected():
+if not wb3.is_connected():
     print("Failed to connect to the Celo network")
     exit()
 
@@ -47,12 +47,11 @@ except FileNotFoundError:
     token_abi = []
 
 # Replace with your contract's address (must be a valid address, not just a placeholder)
-
-# Replace with your contract's address (must be a valid address, not just a placeholder)
-gaming_contract = web3.eth.contract(
+gaming_contract = wb3.eth.contract(
     address=os.getenv('KNOWLEDGE_KING_GAME_CONTRACT_ADDR'),  # Replace with your contract's address
     abi=knowking_abi
 )
-token_contract = web3.eth.contract(
+token_contract = wb3.eth.contract(
     address=os.getenv('KNOWLEDGE_KING_TOKEN_CONTRACT_ADDR'),  # Replace with your token contract's address
-    abi=token_abi )
+    abi=token_abi
+)
