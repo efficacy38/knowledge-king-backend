@@ -2,6 +2,10 @@ from web3 import Web3
 from dotenv import load_dotenv
 import os
 import json
+from eth_account import Account
+from eth_account.signers.local import LocalAccount
+from web3.middleware import SignAndSendRawMiddlewareBuilder
+from web3.contract import Contract
 
 # Load environment variables from .env file
 load_dotenv()
@@ -47,11 +51,25 @@ except FileNotFoundError:
     token_abi = []
 
 # Replace with your contract's address (must be a valid address, not just a placeholder)
-gaming_contract = wb3.eth.contract(
+
+# Replace with your contract's address (must be a valid address, not just a placeholder)
+gaming_contract: Contract = wb3.eth.contract(
     address=os.getenv('KNOWLEDGE_KING_GAME_CONTRACT_ADDR'),  # Replace with your contract's address
     abi=knowking_abi
 )
-token_contract = wb3.eth.contract(
+token_contract: Contract = wb3.eth.contract(
     address=os.getenv('KNOWLEDGE_KING_TOKEN_CONTRACT_ADDR'),  # Replace with your token contract's address
-    abi=token_abi
-)
+    abi=token_abi )
+
+account_private_key = os.getenv('ACCOUNT_PRIVATE_KEY')
+assert account_private_key is not None, "ACCOUNT_PRIVATE_KEY must be set in the environment variables"
+assert account_private_key.startswith("0x"), "ACCOUNT_PRIVATE_KEY must start with '0x'"
+
+account: LocalAccount = wb3.eth.account.from_key(account_private_key)
+wb3.middleware_onion.inject(SignAndSendRawMiddlewareBuilder.build(account), layer=0)
+
+print("current address: ", account.address)
+print("current balance: ", wb3.eth.get_balance(account.address))
+
+# debug
+gaming_contract.functions.play.transact()
